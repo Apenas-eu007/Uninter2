@@ -1,0 +1,82 @@
+/* Estilo geral da página */
+body {
+    background-color: #f0f5f9; /* Cor de fundo suave */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilização do título */
+h1 {
+    color: #3a6ea5; /* Cor diferente para o título */
+    text-align: center; /* Centralizado */
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+/* Estilização do parágrafo */
+p {
+    font-size: 18px; /* Tamanho de fonte maior */
+    text-align: justify; /* Texto justificado */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilização da lista */
+ul {
+    padding-left: 30px;
+}
+
+ul li {
+    margin-bottom: 15px; /* Espaçamento maior entre os itens */
+    line-height: 1.4;
+}
+
+/* Estilização da imagem */
+img {
+    border-radius: 12px; /* Bordas arredondadas */
+    max-width: 100%; /* Tamanho adequado, responsivo */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3a6ea5;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilização do link */
+a {
+    color: #3a6ea5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6b6b; /* Muda de cor ao passar o mouse */
+    text-decoration: underline;
+}
