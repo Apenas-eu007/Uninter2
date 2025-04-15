@@ -79,4 +79,32 @@ a {
 a:hover {
     color: #ff6b6b; /* Muda de cor ao passar o mouse */
     text-decoration: underline;
+}/* Estilo do botão */
+#motivacaoBtn {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+#motivacaoBtn:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+/* Estilo do botão */
+#motivacaoBtn {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+    margin-top: 20px; /* Espaçamento acima do botão */
+}
+#motivacaoBtn:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
 }
