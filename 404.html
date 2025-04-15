@@ -104,3 +104,51 @@
     <img src="th-1915888338.jpg" alt="País 1" class="hobby-img">
     <img src="th-2358406006.jpg" alt="País 2" class="hobby-img">
 </div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botão</title>
+    <style>
+        /* Estilo do botão */
+        #motivacaoBtn {
+            background-color: #007bff; /* Cor de fundo azul */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            padding: 10px 20px; /* Espaçamento interno */
+            font-size: 16px; /* Tamanho da fonte */
+            cursor: pointer; /* Muda o cursor ao passar o mouse */
+            transition: background-color 0.3s; /* Transição suave */
+            margin-top: 20px; /* Espaçamento acima do botão */
+        }
+        #motivacaoBtn:hover {
+            background-color: #0056b3; /* Cor ao passar o mouse */
+        }
+        #mensagem {
+            display: none; /* Inicialmente escondido */
+            margin-top: 10px;
+            font-weight: bold;
+            color: #2e8b57; /* Cor da mensagem */
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão para mostrar a mensagem -->
+    <button id="motivacaoBtn">Clique para ver uma mensagem!</button>
+
+    <!-- Área para exibir a mensagem -->
+    <div id="mensagem"></div>
+
+    <script>
+        // Adiciona um evento ao botão
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("motivacaoBtn").onclick = function() {
+                document.getElementById("mensagem").innerText = "Obrigado por ver, fiz o meu máximo!";
+                document.getElementById("mensagem").style.display = "block"; // Exibe a mensagem
+            };
+        });
+    </script>
+</body>
+</html>
